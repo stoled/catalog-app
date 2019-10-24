@@ -1,9 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/logo.svg';
+// import { FaBeer } from 'react-icons/fa';
 
 export default function NavigationBar () {
   return (
   <nav>
+    <Link to="/">
+      <img src={logo} alt="logo"/>
+    </Link>
     <ul className="container">
       <li>
         <Link to="/">Home</Link>
