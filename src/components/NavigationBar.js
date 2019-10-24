@@ -12,6 +12,9 @@ export default function NavigationBar () {
         <Link to="/about">About</Link>
       </li>
       <li>
+        <Link to="/catalog">Catalog</Link>
+      </li>
+      <li>
         <Link to="/contact">Contact</Link>
       </li>
     </ul>
